@@ -20,7 +20,7 @@ while operacion != "salir":
         deposito = float(input(f"Introduzca la cantidad que desea depositar \n-> "))
         monto1 = deposito + monto
         os.system("cls || clear")
-        print(f"Monto actual = C${monto1:,}")
+        print(f"Monto actual = C${monto1:,.2f}")
         monto = monto1
     monto = monto
     if operacion == "retirar":
@@ -28,7 +28,7 @@ while operacion != "salir":
         retiro = float(input(f"Introduzca la cantidad que desea retirar \n-> "))
         monto2 = monto - retiro
         os.system("cls || clear")
-        print(f"Monto actual = C${monto2:,}")
+        print(f"Monto actual = C${monto2:,.2f}")
         monto = monto2
     monto = monto
     time.sleep(5)

@@ -33,7 +33,9 @@ for j in cadena:
     elif j == "u":
         vocal_u += 1
 
+cadena = cadena.capitalize()
+
 os.system("cls || clear")
-print(f"----------------------- \nTotal de vocales: {total_vocales:,}")
+print(f"----------------------- \nOración introducida: {cadena}\nTotal de vocales: {total_vocales:,}")
 print(f"Cantidad de la vocal a: {vocal_a:,} \nCantidad de la vocal e: {vocal_e:,} \nCantidad de la vocal i: {vocal_i:,}")
 print(f"Cantidad de la vocal o: {vocal_o:,} \nCantidad de la vocal u: {vocal_u:,}\n----------------------- ")

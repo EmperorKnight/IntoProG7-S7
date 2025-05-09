@@ -3,7 +3,9 @@
 # números desde 1 hasta N.
 # Especificación: Usa un bucle for y un acumulador.
 
-import os
+import os, sys
+
+sys.set_int_max_str_digits(100000000)
 
 os.system("cls || clear")
 N = int(input(f"Introduzca un numero \n-> "))

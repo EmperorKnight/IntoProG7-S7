@@ -16,5 +16,4 @@ for i in range(cant):
 promedio = suma / cant
 
 os.system("cls || clear")
-print(f"----------------------- \nEl promedio es: {promedio:.1f}\n----------------------- ")
-
+print(f"----------------------- \nEl promedio es: {promedio:.1f}%\n----------------------- ")
